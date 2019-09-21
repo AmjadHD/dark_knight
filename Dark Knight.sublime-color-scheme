@@ -68,7 +68,7 @@
         },
         {
             "name": "String",
-            "scope": "string, comment.block.documentation",
+            "scope": "string",
             "foreground": "var(green)"
         },
         {
@@ -152,6 +152,11 @@
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
             "foreground": "var(green2)"
+        },
+        {
+            "name": "Documentations",
+            "scope": "comment.block.documentation, comment.line.documentation punctuation.definition.comment, comment.line.documentation",
+            "foreground": "var(green)",
         },
         {
             "name": "Package",
