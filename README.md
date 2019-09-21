@@ -1,6 +1,6 @@
-# Dark Knight
+# Dark Knight Color Scheme
 
-An elegant dark color scheme for Sublime Text 3.
+🎨 An elegant dark color scheme for Sublime Text 3 .
 
 
 ## Examples
