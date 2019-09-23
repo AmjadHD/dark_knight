@@ -33,7 +33,7 @@
 
 1. Bring up the command palette (<kbd>ctrl</kbd>/<kbd>⌘</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>)
 2. Select "Package Control: Install Package"
-3. Search for "Dark Knight" and hit enter
+3. Search for "Dark Knight Color Scheme" and hit enter
 
 ## Notes
 
