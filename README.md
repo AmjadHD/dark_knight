@@ -35,14 +35,55 @@
 2. Select "Package Control: Install Package"
 3. Search for "Dark Knight Color Scheme" and hit enter
 
-## Notes
+## Preferences
 
-As a personal preference, Dark Knight fits well with the [One Dark theme](https://packagecontrol.io/packages/Theme%20-%20One%20Dark). Otherwise, any dark theme will do it.
+Paste this into your `Preferences.sublime-settings`
+
+```json
+{
+    "always_show_minimap_viewport": true,
+
+    "draw_minimap_border": true,
+
+    "draw_white_space": "none",
+
+    "fade_fold_buttons": false,
+
+    "highlight_line": true,
+
+    "highlight_modified_tabs": true,
+
+    "indent_guide_options":
+    [
+        "draw_active",
+        "draw_normal"
+    ],
+
+    "line_padding_bottom": 3,
+
+    "line_padding_top": 3,
+
+    "margin": 0,
+    
+    "overlay_scroll_bars": "enabled",
+
+    "rulers":
+    [
+        80
+    ],
+
+    "theme": "One Dark.sublime-theme",
+
+    "word_wrap": "true",
+}
+```
+
+The [One Dark theme](https://packagecontrol.io/packages/Theme%20-%20One%20Dark) is recommended.
 
 ## Contributing
 
-If you see something that can be enhanced (probably a lot now!), please don't hesitate to open an issue or even better, a PR.
+If you see something that can be enhanced, please don't hesitate to open an issue or even better, a PR.
 
 ## Acknowledgment
 
-Dark Knight color scheme is heavily inspired by atom's iconic One Dark syntax theme.
+Dark Knight color scheme is inspired by atom's iconic One Dark syntax theme.
