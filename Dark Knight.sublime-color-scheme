@@ -64,7 +64,8 @@
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(grey3)"
+            "foreground": "var(grey2)",
+            "font_style": "italic"
         },
         {
             "name": "String",
@@ -73,7 +74,7 @@
         },
         {
             "name": "Punctuation",
-            "scope": "punctuation.definition - punctuation.definition.tag, comment.block.documentation & (punctuation.definition.comment.begin | punctuation.definition.comment.end)",
+            "scope": "punctuation.definition - punctuation.definition.tag, comment.block.documentation punctuation.definition.comment",
             "foreground": "var(blue2)"
         },
         {
@@ -154,10 +155,8 @@
             "foreground": "var(green2)"
         },
         {
-            "name": "Documentations",
-            "scope": "comment.block.documentation, comment.line.documentation punctuation.definition.comment, comment.line.documentation",
-            "foreground": "var(green)",
-        },
+            "name": "Package/Module",
+            "scope": "support.type.package, support.module",
         {
             "name": "Package",
             "scope": "support.type.package",
