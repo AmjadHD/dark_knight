@@ -5,41 +5,41 @@
     "variables": {
 
         // Monochrome -----------------------------------
-        "grey":             "hsl(220, 15%, 70%)", // foreground
-        "grey2":            "hsl(220, 10%, 55%)",
-        "grey3":            "hsl(220, 10%, 40%)",
-        "grey4":            "hsl(220, 15%, 25%)", // invisibles
-        "grey5":            "hsl(220, 13%, 18%)", // background
+        "grey":             "hsl(220,  15%,  70%)", // foreground
+        "grey2":            "hsl(220,  10%,  55%)",
+        "grey3":            "hsl(220,  10%,  40%)",
+        "grey4":            "hsl(220,  15%,  25%)", // invisibles
+        "grey5":            "hsl(220,  13%,  18%)", // background
 
         // Colors -----------------------------------
 
-        "green":            "hsl( 95,  38%, 62%)",
-        "green2":           "hsl(150,  60%, 54%)",
+        "green":            "hsl( 95,  38%,  62%)",
+        "green2":           "hsl(150,  60%,  54%)",
 
-        "blue":             "hsl(207,  82%, 66%)",
-        "blue2":            "hsl(187,  47%, 55%)",
+        "blue":             "hsl(207,  82%,  66%)",
+        "blue2":            "hsl(187,  47%,  55%)",
 
-        "purple":           "hsl(286,  60%, 67%)",
+        "purple":           "hsl(286,  60%,  67%)",
 
-        "pink":             "hsl(334, 100%, 62%)",
+        "pink":             "hsl(334, 100%,  62%)",
 
-        "red":              "hsl(355,  65%, 65%)",
-        "red2":             "hsl(0,    70%, 60%)",
-        "red3":             "hsl(0, 100%, 70%)",
+        "red":              "hsl(355,  65%,  65%)",
+        "red2":             "hsl(  0,  70%,  60%)",
+        "red3":             "hsl(  0, 100%,  70%)",
 
-        "orange":           "hsl(29,   54%, 61%)",
-        "orange2":          "hsl(27, 68%, 51%)",
+        "orange":           "hsl( 29,  54%,  61%)",
+        "orange2":          "hsl( 27,  70%,  50%)",
 
-        "yellow":           "hsl(40,   60%, 70%)",
+        "yellow":           "hsl( 40,  60%,  70%)"
     },
 
     "globals": {
         "foreground":         "var(grey)",
         "background":         "var(grey5)",
 
-        "caret":              "hsl(220, 100%, 66%)",
-        "accent":             "hsl(220, 100%, 66%)",
-        "selection":          "hsla(220, 80%, 66%, 0.3)",
+        "caret":              "hsl(220, 100%,  66%)",
+        "accent":             "hsl(220, 100%,  66%)",
+        "selection":          "hsla(220, 80%,  66%, 0.3)",
         "line_highlight":     "color(var(grey) a(0.1)",
         "invisibles":         "var(grey4)",
         "selection_corner_style": "square",
