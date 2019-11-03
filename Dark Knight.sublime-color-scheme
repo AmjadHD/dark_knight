@@ -142,7 +142,7 @@
         },
         {
             "name": "Class/Type Definition",
-            "scope": "entity.name.type - entity.name.type.module, entity.name.class, entity.name.struct - entity.name.struct.forward-decl, entity.name.impl",
+            "scope": "entity.name.type - entity.name.type.module, entity.name.class, entity.name.struct - entity.name.struct.forward-decl",
             "foreground": "var(yellow)"
         },
         {
