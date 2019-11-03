@@ -141,8 +141,8 @@
             "foreground": "var(red3)"
         },
         {
-            "name": "Class/Type",
-            "scope": "entity.name.type - entity.name.type.module, entity.name.class, entity.name.struct - entity.name.struct.forward-decl, entity.name.impl, support.class",
+            "name": "Class/Type Definition",
+            "scope": "entity.name.type - entity.name.type.module, entity.name.class, entity.name.struct - entity.name.struct.forward-decl, entity.name.impl",
             "foreground": "var(yellow)"
         },
         {
@@ -151,9 +151,14 @@
             "foreground": "var(blue2)",
         },
         {
-            "name": "Inherited class",
+            "name": "Inherited",
             "scope": "entity.other.inherited-class",
             "foreground": "var(green2)"
+        },
+        {
+            "name": "Library Class",
+            "scope": "support.class",
+            "foreground": "var(yellow)",
         },
         {
             "name": "Package/Module",
