@@ -234,6 +234,11 @@
             "foreground": "var(red)"
         },
         {
+            "name": "Angle Brackets",
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(grey)",
+        },
+        {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
             "foreground": "var(orange)"
