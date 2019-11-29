@@ -67,14 +67,7 @@ Paste this into your `Preferences.sublime-settings`
     
     "overlay_scroll_bars": "enabled",
 
-    "rulers":
-    [
-        80
-    ],
-
-    "theme": "One Dark.sublime-theme",
-
-    "word_wrap": "true",
+    "theme": "One Dark.sublime-theme"
 }
 ```
 
