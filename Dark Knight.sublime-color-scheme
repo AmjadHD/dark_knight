@@ -228,7 +228,7 @@
         {
             "name": "keys",
             "scope": "source.json & meta.mapping.key.json string.quoted.double.json, source.lua meta.mapping.lua meta.key string.unquoted.key.lua",
-            "foreground": "var(red)"
+            "foreground": "var(blue)"
         },
         // HTML and CSS
 
