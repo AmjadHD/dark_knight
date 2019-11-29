@@ -193,10 +193,9 @@
             "foreground": "var(blue2)"
         },
         {
-            "name": "Interpolation/Placeholder",
-            "scope": "punctuation.section.interpolation, punctuation.definition.placeholder, constant.other.placeholder",
-            "foreground": "var(red2)"
-        },
+            "name": "Interpolation/Placeholder Punctuations",
+            "scope": "punctuation.section.interpolation, punctuation.definition.placeholder, punctuation.definition.template-expression",
+            "foreground": "var(purple)"
         {
             "scope": "character set",
             "scope": "constant.other.character-class.set - constant.other.character-class.range",
