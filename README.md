@@ -59,9 +59,9 @@ Paste this into your `Preferences.sublime-settings`
         "draw_normal"
     ],
 
-    "line_padding_bottom": 3,
+    "line_padding_bottom": 2,
 
-    "line_padding_top": 3,
+    "line_padding_top": 2,
 
     "margin": 0,
     
