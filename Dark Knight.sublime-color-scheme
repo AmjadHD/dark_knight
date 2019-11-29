@@ -79,21 +79,38 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "Built-in constant",
-            "scope": "constant.language, support.constant",
-            "foreground": "var(orange)",
-            "font_style": "italic"
+            "name": "Numeric Base",
+            "scope": "punctuation.definition.numeric.base",
+            "foreground": "var(purple)",
         },
         {
-            "name": "User-defined constant",
+            "name": "Support",
+            "scope": "support",
+            "font_style": "italic"
+        },
+
+        // Constants
+        {
+            "name": "User-defined Constant",
             "scope": "constant.other, entity.name.constant, variable.other.constant",
             "foreground": "var(red)"
         },
         {
-            "name": "Character",
-            "scope": "constant.character",
-            "foreground": "var(purple)"
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(orange)"
         },
+        {
+            "name": "Library Constant",
+            "scope": "support.constant",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Character Constant",
+            "scope": "constant.character",
+            "foreground": "var(white)",
+        },
+
         {
             "name": "Keywords",
             "scope": "keyword, storage",
@@ -112,8 +129,7 @@
         {
             "name": "Language variable",
             "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
+            "foreground": "var(red)"
         },
         {
             "name": "Parameters",
@@ -121,15 +137,14 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "User defined function",
+            "name": "User-defined Function",
             "scope": "variable.function",
             "foreground": "var(blue)"
         },
         {
-            "name": "Library function",
+            "name": "Library Function",
             "scope": "support.function - variable.macro, support.macro",
-            "foreground": "var(blue2)",
-            "font_style": "italic"
+            "foreground": "var(blue2)"
         },
         {
             "name": "Annotations",
@@ -143,13 +158,13 @@
         },
         {
             "name": "Class/Type Definition",
-            "scope": "entity.name.type - entity.name.type.module, entity.name.class, entity.name.struct - entity.name.struct.forward-decl",
+            "scope": "entity.name.class - entity.name.class.forward-decl, entity.name.struct, entity.name.enum, entity.name.union, entity.name.trait, entity.name.interface, entity.name.impl, entity.name.type - entity.name.type.module",
             "foreground": "var(yellow)"
         },
         {
-            "name": "Library Type",
-            "scope": "support.type",
-            "foreground": "var(blue2)",
+            "name": "Library Class/Type",
+            "scope": "support.class, support.type",
+            "foreground": "var(yellow)"
         },
         {
             "name": "Inherited",
@@ -157,14 +172,10 @@
             "foreground": "var(green2)"
         },
         {
-            "name": "Library Class",
-            "scope": "support.class",
-            "foreground": "var(yellow)",
-        },
-        {
             "name": "Package/Module",
             "scope": "support.type.package, support.module, support.other.namespace",
-            "foreground": "var(grey)"
+            "foreground": "var(grey)",
+            "font_style": "",
         },
         {
             "name": "Function Definition",
@@ -173,7 +184,7 @@
         },
         {
             "name": "Entity name",
-            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label, entity.name.struct)",
+            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label | entity.name.struct.forward-decl | entity.name.class.forward-decl | entity.name.type.module)",
             "foreground": "var(orange)"
         },
         {
