@@ -80,7 +80,7 @@
         },
         {
             "name": "Numeric Base",
-            "scope": "punctuation.definition.numeric.base",
+            "scope": "punctuation.definition.numeric",
             "foreground": "var(purple)",
         },
         {
