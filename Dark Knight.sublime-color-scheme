@@ -196,20 +196,6 @@
             "name": "Interpolation/Placeholder Punctuations",
             "scope": "punctuation.section.interpolation, punctuation.definition.placeholder, punctuation.definition.template-expression",
             "foreground": "var(purple)"
-        {
-            "scope": "character set",
-            "scope": "constant.other.character-class.set - constant.other.character-class.range",
-            "foreground": "var(orange)"
-        },
-        {
-            "scope": "character range",
-            "scope": "constant.other.character-class.set constant.other.character-class.range",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "Escape Characters",
-            "scope": "constant.character.escape",
-            "foreground": "white"
         },
         {
             "name": "Illegal",
