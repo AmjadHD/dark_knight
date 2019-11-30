@@ -42,7 +42,7 @@
         "accent":             "hsl(220, 100%,  66%)",
         "selection":          "hsla(220, 80%,  66%, 0.3)",
         "line_highlight":     "color(var(grey) a(0.1)",
-        "invisibles":         "var(grey4)",
+        "invisibles":         "var(grey2)",
         "selection_corner_style": "square",
 
         // diff
