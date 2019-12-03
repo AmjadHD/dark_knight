@@ -163,7 +163,7 @@
         },
         {
             "name": "Class/Type Definition",
-            "scope": "entity.name.class - entity.name.class.forward-decl, entity.name.struct, entity.name.enum, entity.name.union, entity.name.trait, entity.name.interface, entity.name.impl, entity.name.type - entity.name.type.module",
+            "scope": "entity.name.class - entity.name.class.forward-decl, entity.name.struct - entity.name.struct.forward-decl, entity.name.enum, entity.name.union, entity.name.trait, entity.name.interface, entity.name.impl, entity.name.type - entity.name.type.module",
             "foreground": "var(yellow)"
         },
         {
