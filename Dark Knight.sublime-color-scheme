@@ -106,8 +106,8 @@
             "foreground": "var(red)"
         },
         {
-            "name": "Character Constant",
-            "scope": "constant.character",
+            "name": "Escape Character",
+            "scope": "constant.character.escape",
             "foreground": "var(white)",
         },
 
