@@ -64,13 +64,13 @@ Paste this into your `Preferences.sublime-settings`
     "line_padding_top": 2,
 
     "margin": 0,
-    
+
     "caret_extra_bottom": 1,
-    
+
 	"caret_extra_top": 2,
-    
+
 	"caret_extra_width": 1,
-    
+
     "overlay_scroll_bars": "enabled",
 
     "theme": "One Dark.sublime-theme"
