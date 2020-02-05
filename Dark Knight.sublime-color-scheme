@@ -5,10 +5,10 @@
     "variables": {
 
         // Monochrome -----------------------------------
-        "grey":             "hsl(220,  15%,  70%)", // foreground
+        "grey":             "hsl(220,  14%,  71%)", // foreground
         "grey2":            "hsl(220,  10%,  55%)",
         "grey3":            "hsl(220,  10%,  40%)",
-        "grey4":            "hsl(220,  15%,  25%)", // invisibles
+        "grey4":            "hsla(220, 14%,  71%, 0.15)", // invisibles
         "grey5":            "hsl(220,  13%,  18%)", // background
 
         // Colors -----------------------------------
@@ -24,8 +24,8 @@
 
         "pink":             "hsl(334, 100%,  62%)",
 
-        "red":              "hsl(  0,  65%,  65%)",
-        "red2":             "hsl(  0,  70%,  60%)",
+        "red":              "hsl(355,  65%,  65%)",
+        "red2":             "hsl(  5,  48%,  51%)",
         "red3":             "hsl(  0,  70%,  70%)",
 
         "orange":           "hsl( 29,  54%,  61%)",
@@ -41,8 +41,8 @@
 
         "caret":              "var(blue3)",
         "accent":             "var(blue3)",
-        "selection":          "hsla(220, 80%,  66%, 0.3)",
-        "line_highlight":     "color(var(grey) alpha(0.1)",
+        "selection":          "color(var(grey5) lightness(+ 10%))",
+        "line_highlight":     "hsla(220, 100%, 80%, .04)",
         "invisibles":         "color(var(grey) alpha(0.5))",
         "selection_corner_style": "square",
         "tags_options": "underline",
@@ -56,7 +56,7 @@
         "line_diff_modified": "var(yellow)",
 
         // gutter
-        "gutter_foreground":  "color(var(grey) l(- 15%))",
+        "gutter_foreground":  "color(var(grey) l(- 26%))",
         "fold_marker":        "var(grey)",
 
         // guides
@@ -70,6 +70,12 @@
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(grey3)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Documentation",
+            "scope": "comment.block.documentation, comment.block.documentation punctuation.definition.comment",
             "foreground": "var(grey2)",
             "font_style": "italic"
         },
@@ -189,17 +195,12 @@
         },
         {
             "name": "Entity name",
-            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label | entity.name.struct.forward-decl | entity.name.class.forward-decl | entity.name.type.module)",
+            "scope": "entity.name - (entity.name.section, entity.name.tag, entity.name.label, entity.name.struct.forward-decl, entity.name.class.forward-decl, entity.name.type.module)",
             "foreground": "var(orange)"
         },
         {
-            "name": "Punctuation",
-            "scope": "punctuation.definition - punctuation.definition.tag, comment.block.documentation punctuation.definition.comment",
-            "foreground": "var(blue2)"
-        },
-        {
-            "name": "Interpolation/Placeholder Punctuations",
-            "scope": "punctuation.section.interpolation, punctuation.definition.placeholder, punctuation.definition.template-expression",
+            "name": "Interpolation/Placeholder/group Punctuations",
+            "scope": "punctuation.section.interpolation, punctuation.definition.placeholder, punctuation.definition.group, punctuation.definition.template-expression",
             "foreground": "var(purple)"
         },
         {
@@ -266,7 +267,8 @@
         {
             "name": "CSS Properties",
             "scope": "support.type.property-name",
-            "foreground": "var(grey)"
+            "foreground": "var(grey)",
+            "font_style": "",
         },
         {
             "name": "Colors",
@@ -288,22 +290,22 @@
         },
         {
             "name": "Bold",
-            "scope": "markup.bold, punctuation.definition.bold",
+            "scope": "markup.bold, markup.bold punctuation.definition.bold",
             "font_style": "bold"
         },
         {
             "name": "Italic",
-            "scope": "markup.italic",
+            "scope": "markup.italic, markup.italic punctuation.definition.bold",
             "font_style": "italic"
         },
         {
             "name": "Bold Italic",
-            "scope": "markup.bold markup.italic | markup.italic markup.bold",
+            "scope": "markup.bold markup.italic, markup.bold_italic, markup.bold_italic punctuation.definition.bold",
             "font_style": "bold italic"
         },
         {
             "name": "Markup Code",
-            "scope": "markup.raw",
+            "scope": "markup.raw - punctuation.definition.raw",
             "background": "color(var(grey) a(0.15) l(- 10%))"
         },
         {
@@ -314,9 +316,13 @@
             "font_style": "italic"
         },
         {
-            "name": "markup links",
-            "scope": "string.other.link, markup.underline",
+            "scope": "string.other.link, meta.link.inline.description, meta.image.inline.description",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "markup links",
+            "scope": "markup.underline.link",
+            "foreground": "var(blue2)"
         },
         {
             "name": "List numbers",
