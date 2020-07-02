@@ -1,9 +1,10 @@
 # Dark Knight Color Scheme
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AmjadHD/dark_knight) ![Package Control](https://img.shields.io/packagecontrol/dt/Dark%20Knight%20Color%20Scheme)
 
-🎨 An elegant dark color scheme for Sublime Text.
+🎨 An elegant dark color scheme for Sublime Text ⚡.
 
 
-## Examples
+## Screenshots
 
 ### Python
 
@@ -67,9 +68,9 @@ Paste this into your `Preferences.sublime-settings`
 
     "caret_extra_bottom": 1,
 
-	"caret_extra_top": 2,
+    "caret_extra_top": 2,
 
-	"caret_extra_width": 1,
+    "caret_extra_width": 1,
 
     "overlay_scroll_bars": "enabled",
 
