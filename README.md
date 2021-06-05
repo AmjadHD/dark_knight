@@ -74,11 +74,11 @@ Paste this into your `Preferences.sublime-settings`
 
     "overlay_scroll_bars": "enabled",
 
-    "theme": "One Dark.sublime-theme"
+    "theme": "One.sublime-theme"
 }
 ```
 
-The [One Dark theme](https://packagecontrol.io/packages/Theme%20-%20One%20Dark) is recommended.
+The [One theme](https://packagecontrol.io/packages/Theme%20-%20One) is recommended.
 
 ## Contributing
 
@@ -86,4 +86,4 @@ If you see something that can be enhanced, please don't hesitate to open an issu
 
 ## Acknowledgment
 
-Dark Knight color scheme is inspired by atom's iconic One Dark syntax theme.
+Dark Knight color scheme is inspired by atom's iconic One Dark syntax theme. You can checkout my port of atom's One theme and color schemes [here](https://packagecontrol.io/packages/Theme%20-%20One).
